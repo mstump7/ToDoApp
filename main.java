@@ -11,9 +11,9 @@ public class TodoList {
             this.dueDate = dueDate;
         }
 
-        @Override
+    @Override
 public String toString() {
-    return "Task: " + description + " (Local Change)";
+    return "Task: " + description + " (Merged Change)";
 }
     }
 
