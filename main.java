@@ -12,9 +12,9 @@ public class TodoList {
         }
 
         @Override
-        public String toString() {
-            return "Task: " + description + " | Due Date: " + dueDate;
-        }
+public String toString() {
+    return "Task: " + description + " (Local Change)";
+}
     }
 
     // Array to store the Todo items
